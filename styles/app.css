@@ -1,3 +1,6 @@
+:root{
+    --orange: #E76F51;
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%; /* 10px */
@@ -9,4 +12,82 @@ body{
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: "Roboto";
+   
+}
+
+
+
+/*
+
+-- Helper Class --
+
+*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* ------------Header------------------ */
+header{
+    background-image: url('../images/header-bg.jpg');
+    background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../images/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    background-color: #707070;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+.nav__left{
+
+}
+.nav__logo{
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-right: 4rem;
+}
+.nav__menus{
+    
+}
+.nav__menu{
+    padding-left: 4rem;
+}
+.nav__right{
+
+}
+.links{
+
+}
+.link{
+
+}
+.link{
+
+}
+.content{
+
+}
+.content__title{
+
+}
+.content__caption{
+
+}
+.content__button{
+
 }
